@@ -92,7 +92,7 @@ function App(props) {
 
 
                         {/*   </TransactionsPanel>   */}
-                        <TransactionsPanel />
+                        <TransactionsPanel orders={props.orders} />
                         {/*   </TransactionsPanel>   */}
 
                     </div>
