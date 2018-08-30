@@ -47,7 +47,7 @@ function App(props) {
                 <div className="row">
 
                    {/*   </Comments>   */}
-                    <Comments />
+                    <Comments newComments={props.newComments}/>
                     {/*   </Comments>   */}
 
                     {/*   <Tasks>   */}
