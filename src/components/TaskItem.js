@@ -1,9 +1,9 @@
 import React from "react";
 
-function TaskItem() {
+function TaskItem(props) {
   return (<a href="#" className="list-group-item">
                                         <span className="badge">just now</span>
-                                        <i className="fa fa-fw fa-calendar"></i> Calendar updated
+                                        <i className="fa fa-fw fa-calendar"></i>{props.taskItem}
                                     </a>);
 }
 

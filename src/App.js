@@ -51,16 +51,16 @@ function App(props) {
                     {/*   </Comments>   */}
 
                     {/*   <Tasks>   */}
-                    <Tasks />
+                    <Tasks newTasks={props.newTasks}/>
                     {/*   </Tasks>   */}
 
                     {/*   <Orders>   */}
-                    <Orders />
+                    <Orders newOrders={props.newOrders}/>
                     {/*   </Orders>   */}
 
 
                     {/*   <Tickets>   */}
-                    <Tickets />
+                    <Tickets tickets={props.tickets}/>
                     {/*   </Tickets>   */}
 
 
@@ -83,7 +83,7 @@ function App(props) {
 
                     <div className="col-lg-4">
                         {/*   <TasksPanel>   */}
-                        <TasksPanel />
+                        <TasksPanel taskItem={props.taskItem}/>
                         {/*   </TasksPanel>   */}
 
 
